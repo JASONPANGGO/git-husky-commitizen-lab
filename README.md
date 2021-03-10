@@ -8,6 +8,13 @@ A repo built for trying workflows using husky and commitzen
 yarn add --dev @commitlint/cli @commitlint/config-angular cz-conventional-changelog
 ```
 
+## 📃 Add commitlint.config.js
+```js
+module.exports = {
+    extends: ['@commitlint/config-angular']
+};
+```
+
 ## 🐶 Install husky
 
 ```cmd
