@@ -1,8 +1,8 @@
 {
-  "name": "git-husky-commitzen-lab",
+  "name": "git-husky-commitizen-lab",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:JASONPANGGO/git-husky-commitzen-lab.git",
+  "repository": "git@github.com:JASONPANGGO/git-husky-commitizen-lab.git",
   "author": "jasonpang <jason_pang@126.com>",
   "license": "MIT",
   "scripts": {

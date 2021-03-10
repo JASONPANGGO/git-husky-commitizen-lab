@@ -1,6 +1,6 @@
-# husky commitzen lab
+# husky commitizen lab
 
-🧪 A repo built for trying workflows using husky and commitzen
+🧪 A repo built for trying workflows using husky and commitizen
 
 ## Usage
 ```cmd
