@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "commit": "git-cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "commitlint --edit"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",
@@ -18,11 +19,6 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "commitlint --edit"
     }
   }
 }
