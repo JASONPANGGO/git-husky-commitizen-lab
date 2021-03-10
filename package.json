@@ -6,10 +6,12 @@
   "author": "jasonpang <jason_pang@126.com>",
   "license": "MIT",
   "scripts": {
-    "commit": "cz"
+    "commit": "cz",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "3.3.0"
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "^5.1.3"
   },
   "config": {
     "commitizen": {
