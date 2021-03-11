@@ -19,6 +19,15 @@ to commit your changes.
 
 If your commit messages can't pass the commitlint, you can't continue your commitment.
 
+## Working with sourcetree (or other GUI git tool)
+
+GUI tool may prompt `yarn: command is not found`
+please save this to `~`
+> .huskyrc
+```bash
+# .huskyrc
+export PATH="/usr/local/bin/:$PATH"
+```
 
 ## How this work?
 
