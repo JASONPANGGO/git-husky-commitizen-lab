@@ -57,12 +57,12 @@ yarn husky init
 "scripts": {
     "commit": "git-cz",
     "prepare": "husky install",
-    "test": "commitlint --edit"
+    "test": "commitlint --edit $1"
   },
 ```
 
 ## 5. ⚙️ husky config
-> .husky/pre-commit
+> .husky/commit-msg
 ```bash
 yarn test
 ```
